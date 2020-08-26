@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
+  const name = "";
+  const status = "Not Logged In";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={() => null}>Login</button>
+      <button onClick={() => null}>Logout</button>
+      <div className="profile">
+        <div>
+          <strong>Status</strong>: {status}
+        </div>
+        <div>
+          <strong>Name</strong>: {name}
+        </div>
+      </div>
     </div>
   );
 }
