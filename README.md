@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Local Storage Note
+
+If you're looking for a local storage example, see https://github.com/KevinDanikowski/appauth-js-react-local-storage-sample
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -27,6 +31,4 @@ This project uses [appauth.io](https://appauth.io) based on the electron app sam
 
 ### Welcome improvements
 
-1. Local storage to properly retrieve user tokens from prior logins to make token requests based on prior authorization
-
-2. Auth react hook to get the current logged in status
+1. Auth react hook to get the current logged in status
